@@ -32,7 +32,7 @@ def main() -> None:
 	en_title = en_title or jp_title
 	jp_title = jp_title or en_title
 	video_id: str = get_video_id(youtube_url)
-	thumbnail_path: str = download_thumbnail(video_id)
+	thumbnail_path: str = thumbnail_url(video_id)
 
 	global now
 	now = datetime.now()
@@ -87,29 +87,44 @@ def get_filename(count: int) -> str:
     )
 
 
-def download_thumbnail(video_id: str) -> str:
-	""" Downloads the thumbnail of the video and returns the file name in POSTS_ASSETS_PATH in this project """
+def thumbnail_url(video_id: str) -> str:
+	URL_FORMAT: str = "https://img.youtube.com/vi/%s/%s.jpg"
+	SIZE_PRIORITY: list[str] = ["mqdefault", "hqdefault", "sddefault", "maxresdefault", "default"]
 
-	# sizes: list[str] = ["maxresdefault", "sddefault", "hqdefault", "mqdefault", "default"]
-	sizes: list[str] = ["hqdefault", "mqdefault", "default", "maxresdefault", "sddefault"]
+	selected_size: str
+	for size in SIZE_PRIORITY:
 
-	thumbnail: bytes = b""
-	for size in sizes:
 		response = requests.get("https://img.youtube.com/vi/%s/%s.jpg" % (video_id, size))
-
 		if response.ok:
-			thumbnail = response.content
+			selected_size = size
 			break
 
-	if thumbnail == b"":
-		# Download failed somehow so use this as a default
-		return "projects-heading-2024-10-23.jpg"
+	return URL_FORMAT % (video_id, selected_size)
 
-	filename: str = video_id + ".jpg"
-	with open(POSTS_ASSETS_PATH + filename, "wb") as f:
-		f.write(thumbnail)
 
-	return filename
+# def download_thumbnail(video_id: str) -> str:
+# 	""" Downloads the thumbnail of the video and returns the file name in POSTS_ASSETS_PATH in this project """
+
+# 	# sizes: list[str] = ["maxresdefault", "sddefault", "hqdefault", "mqdefault", "default"]
+# 	sizes: list[str] = ["hqdefault", "mqdefault", "default", "maxresdefault", "sddefault"]
+
+# 	thumbnail: bytes = b""
+# 	for size in sizes:
+# 		response = requests.get("https://img.youtube.com/vi/%s/%s.jpg" % (video_id, size))
+
+# 		if response.ok:
+# 			thumbnail = response.content
+# 			break
+
+# 	if thumbnail == b"":
+# 		# Download failed somehow so use this as a default
+# 		return "projects-heading-2024-10-23.jpg"
+
+# 	filename: str = video_id + ".jpg"
+# 	with open(POSTS_ASSETS_PATH + filename, "wb") as f:
+# 		f.write(thumbnail)
+
+# 	return filename
 
 
 def write_post(

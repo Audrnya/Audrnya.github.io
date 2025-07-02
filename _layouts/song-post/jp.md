@@ -5,7 +5,7 @@ title: "Audrのハマっている曲 #{id_number}"
 category: song addiction
 tags: [song, audrna]
 
-img: ":{thumbnail_filename}"
+img: "{thumbnail_filename}"
 
 date: {date}
 

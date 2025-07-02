@@ -5,7 +5,7 @@ title: "Audr's Song Addiction #{id_number}"
 category: song addiction
 tags: [song, audrna]
 
-img: ":{thumbnail_filename}"
+img: "{thumbnail_filename}"
 
 date: {date}
 
