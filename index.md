@@ -47,7 +47,9 @@ img: ":home-heading.jpg"
 
 ![🤓](:nerdge.svg){:width="16"} My best skills are general programming, Godot Engine, and Python. I also have some experience with various fields such as C, JavaScript, Jekyll, SQL, Flask, React, etc.
 
-![🚩](:flag.svg){:width="16"} Currently studying programming and game design (more focus on this now) on my own, but school is slowing me down...
+![🚩](:flag.svg){:width="16"} Currently on a break!
+
+![Person breaking free from chains meme](:broken_chains.jpg)
 
 <hr>
 

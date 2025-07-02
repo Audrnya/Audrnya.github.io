@@ -49,7 +49,9 @@ img: ":home-heading.jpg"
 
 ![🤓](:nerdge.svg){:width="16"} 得意なスキルは一般的なプログラミング、Godot Engine、Python です。 また、C、JavaScript、Jekyll、SQL、Flask、React など、様々な分野を少し勉強したこともあります。
 
-![🚩](:flag.svg){:width="16"} 現在、独学でプログラミングとゲームデザイン(集中)が勉強しています。ただ、学校があるので進みが遅いです…
+![🚩](:flag.svg){:width="16"} 現在、夏休み中です！
+
+![Person breaking free from chains meme](:broken_chains.jpg)
 
 <hr>
 
