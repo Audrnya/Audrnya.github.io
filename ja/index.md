@@ -39,11 +39,11 @@ img: ":home-heading.jpg"
 
 # こんにちは、`あうどる`です！
 
-![👋](:wave.svg){:width="16"} **「Audrnya」**とか**「あうどる」**と申します。ゲームやプログラミングが好きです！
+![👋](:wave.svg){:width="16"} **「Audrnya」**とか**「あうどる」**と言います。ゲームやプログラミングが好きです！
 
-![🇯🇵](:japan.png){:width="16"}&nbsp;&nbsp;私はボカロと日本の音楽がとても大好きなので、日本語を勉強中です。まだ得意ではないけれど、頑張ります！
+![🇯🇵](:japan.png){:width="16"}&nbsp;&nbsp;日本の音楽、特にボカロが大好きなので、日本語を勉強中です。まだ得意じゃないけど、頑張ります！
 
-![🎮](:gaming.svg){:width="16"} 好きなゲーム：アークナイツ、maimai、崩壊：スターレイル、CHUNITHM、プロジェクトセカイ、Phigros、osu!standard、vivid/stasis、Baba Is You など…
+![🎮](:gaming.svg){:width="16"} 好きなゲーム：アークナイツ、maimai、CHUNITHM、Project Pentjet、プロジェクトセカイ、Phigros、osu!standard、崩壊：スターレイル、Baba Is You など…
 
 ![🛠️](:wrench.svg){:width="16"} 色々作るためにプログラミングしていますが、楽しいのでゲームを作るのが好きです！（後で[プロジェクト](/ja/tabs/projects)を見てくださいね）
 
@@ -51,7 +51,7 @@ img: ":home-heading.jpg"
 
 ![🚩](:flag.svg){:width="16"} 現在、夏休み中です！
 
-![Person breaking free from chains meme](:broken_chains.jpg)
+![鎖から脱皮した人ってミーム](:broken_chains.jpg){:data-align="center"}
 
 <hr>
 

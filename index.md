@@ -41,7 +41,7 @@ img: ":home-heading.jpg"
 
 ![👋](:wave.svg){:width="16"} You can call me **Audr**. I'm a gamer and programmer!
 
-![🎮](:gaming.svg){:width="16"} Favorite games: Arknights, maimai, Honkai: Star Rail, CHUNITHM, Project SEKAI, Phigros, osu!standard, vivid/stasis, Baba Is You, etc...
+![🎮](:gaming.svg){:width="16"} Favorite games: Arknights, maimai, CHUNITHM, Project Pentjet, Project SEKAI, Phigros, osu!standard, Honkai: Star Rail, Baba Is You, etc...
 
 ![🛠️](:wrench.svg){:width="16"} I also code to make stuff but I like making games for fun! (Check out my [projects](/tabs/projects) later!)
 
@@ -49,7 +49,7 @@ img: ":home-heading.jpg"
 
 ![🚩](:flag.svg){:width="16"} Currently on a break!
 
-![Person breaking free from chains meme](:broken_chains.jpg)
+![Person breaking free from chains meme](:broken_chains.jpg){:data-align="center"}
 
 <hr>
 
