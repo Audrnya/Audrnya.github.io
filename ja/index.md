@@ -47,9 +47,9 @@ img: ":home-heading.jpg"
 
 ![🛠️](:wrench.svg){:width="16"} 色々作るためにプログラミングしていますが、楽しいのでゲームを作るのが好きです！（後で[プロジェクト](/ja/tabs/projects)を見てくださいね）
 
-![🤓](:nerdge.svg){:width="16"} 得意なスキルは一般的なプログラミング、Godot Engine、Pythonです。 また、C、JavaScript、Jekyll、SQL、Flask、React など、様々な分野を少し勉強したこともあります。
+![🤓](:nerdge.svg){:width="16"} 得意なスキルは一般的なプログラミング、Godot Engine、Python です。 また、C、JavaScript、Jekyll、SQL、Flask、React など、様々な分野を少し勉強したこともあります。
 
-![🔗](:link.svg){:width="16"} [個人情報とSNSリンクを見たいならここをクリック](/tabs/about)
+![🔗](:link.svg){:width="16"} [個人情報と SNS リンクを見たいならここをクリック](/ja/tabs/about)
 
 ![🚩](:flag.svg){:width="16"} **現在、夏休み中です！**
 
