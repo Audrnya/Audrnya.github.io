@@ -69,10 +69,13 @@ title="{{ project_data.main.tooltip }}"
 
           {%- comment -%}
             Modified by audrNa
-            wtf is this
+            wtf is this -- creates See page link
+            Supports external URL or internal page URL
+            The design is very human
             it is working fine tho
           {%- endcomment -%}
-          <a href="{% if site.baseurl != "tabs" %}{{ site.baseurl | append: "/" }}{% endif %}{% if site.data.conf.main.default_lng != lng %}{{ lng }}{% else %}{{ "posts" }}{% endif %}/{{ list.url }}" role="button" rel="nofollow">
+          <a href="{% if list.url contains "https://" %}{{ list.url }}{% else %}{% if site.baseurl != "tabs" %}{{ site.baseurl | append: "/" }}{% endif %}{% if site.data.conf.main.default_lng != lng %}{{ lng }}{% else %}{{ "posts" }}{% endif %}/{{ list.url }}{% endif %}"
+          role="button" rel="nofollow">
             <div><i class="fa fa-book fa-fw"></i>{{ site.data.lang[lng].projects.see_page }}</div>
           </a>
 

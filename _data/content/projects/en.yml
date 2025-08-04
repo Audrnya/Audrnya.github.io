@@ -25,6 +25,14 @@ page_data:
   list:
     # example
     - type: game
+      project_name: "Byte-End (Prototype)"
+      project_excerpt: "A simple programming puzzle game"
+      img: ":byte-end-prototype.png"
+      img_title: "Apathe from Byte-End"
+      date: "2025-08-02"
+      url: "https://audrnya.itch.io/byte-end"
+
+    - type: game
       project_name: "miku's shitpost course"
       project_excerpt: "im thinking miku miku o ii a i a o iii a i"
       img: ":miku_shitpost_course_original.png"
