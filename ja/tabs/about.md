@@ -44,15 +44,9 @@ img: ":about.jpg"
 
 Audrの自己紹介は[ホームページ](/ja)にありますが、以下は少しの個人情報です：
 
-- <i class="fa fa-mars" aria-hidden="true"></i>&nbsp;
-[男性](https://ja.wikipedia.org/wiki/%E7%94%B7%E6%80%A7){:style="color: var(--body-text-color) !important;"}
-
 - ![Philippines](:philippines.png){:width="16"}
 [フィリピン人](https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84){:style="color: var(--body-text-color) !important;"}
 (![why](:why.png){:width="32"})
-
-- <i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
-独身
 
 - <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;
 [〒 -99.9 Neptune St., Banana Village, Christmas Island, Kiribati](https://maps.app.goo.gl/5ksLJAGQHwkC4Toh6){:target="\_blank"}{:style="color: var(--body-text-color) !important;"}

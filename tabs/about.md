@@ -44,15 +44,9 @@ You can find me in other platforms in the icons above.
 
 My introduction can be found in the [Home page](/), but below is some personal information about me:
 
-- <i class="fa fa-mars" aria-hidden="true"></i>&nbsp;
-[Male](https://en.wikipedia.org/wiki/Male){:style="color: var(--body-text-color) !important;"}
-
 - ![Philippines](:philippines.png){:width="16"}
 [Filipino](https://en.wikipedia.org/wiki/Hell){:style="color: var(--body-text-color) !important;"}
 (![why](:why.png){:width="32"})
-
-- <i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
-Single
 
 - <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;
 [〒 -99.9 Neptune St., Banana Village, Christmas Island, Kiribati](https://maps.app.goo.gl/5ksLJAGQHwkC4Toh6){:target="\_blank"}{:style="color: var(--body-text-color) !important;"}
