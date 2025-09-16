@@ -138,7 +138,7 @@ post-list:
 home:
   title: Hello!
   button_name: Home
-  new_posts_title: New Posts
+  new_posts_title: Recent Activity
   new_posts_show_more_button: View More ...
 
 # for archives layout
