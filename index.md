@@ -49,9 +49,7 @@ img: ":home-heading.jpg"
 
 ![🔗](:link.svg){:width="16"} [Click here for Personal Info and Social Media Links.](/tabs/about)
 
-![🚩](:flag.svg){:width="16"} **Currently on a break!**
-
-![Person breaking free from chains meme](:broken_chains.jpg){:data-align="center"}
+![🚩](:flag.svg){:width="16"} **Current Status: I may or may not be cooking up something new...**
 
 <hr>
 
